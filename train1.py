@@ -2,7 +2,7 @@
 """
 Created on Monday (03-March-2019)
 
-@author: Gaurav Rajpoot
+@author: Sumit Kumar
 """
 
 
@@ -272,7 +272,7 @@ class Face:
 		self.quitWindow.place(x=30, y=430)
 		self.copyWrite = Text(master, background=master.cget("background"), borderwidth=1,font=('Browallia New', 22, ' italic bold '))
 		self.copyWrite.tag_configure("superscript", offset=10)
-		self.copyWrite.insert("insert", "Developed by Gaurav","", "TEAM", "superscript")
+		self.copyWrite.insert("insert", "Developed by Sumit","", "TEAM", "superscript")
 		self.copyWrite.configure(state="disabled",fg="red"  )
 		self.copyWrite.pack(side="left")
 		self.copyWrite.place(x=800, y=750)
